@@ -1,0 +1,34 @@
+{
+    "name": "restful",
+    "version": "0.0.1",
+    "description": "IOT restful API server",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www.js",
+        "test": "istanbul cover --report html ./node_modules/mocha/bin/_mocha ./test/**/*.test.js",
+        "g-test": "istanbul cover --report html C:/Users/M084728/AppData/Roaming/npm/node_modules/mocha/bin/_mocha ./test/**/*.test.js",
+        "nix-test":"istanbul cover --report html /home/pdm/node-master/bin/_mocha  ./test/**/*.test.js"
+    },
+    "dependencies": {
+        "body-parser": "~1.13.2",
+        "cookie-parser": "~1.3.5",
+        "debug": "~2.2.0",
+        "express": "~4.13.1",
+        "jade": "~1.11.0",
+        "morgan": "~1.6.1",
+        "serve-favicon": "~2.3.0",
+        "mongoose": "~4.4.17",
+        "mqtt": "*",
+        "mqtt-router": "*",
+        "uuid": "~2.0.2",
+        "async":"2.0.0",
+        "crypto-js":"3.1.6"
+    },
+    "devDependencies": {
+        "mocha": "~2.4.5",
+        "supertest": "*",
+        "querystring": "*",
+        "istanbul": "*",
+        "should": "^7.0.1"
+    }
+}
