@@ -114,7 +114,7 @@ mosquitto -c /etc/mosquitto/mosquitto.conf -d
 
 ## 视图工具rockmongo
 - PHP 运行环境
-- 开发开发套件  
+- 开发套件  
 yum install -y openssl-devel  
 yum install -y php-devel  
 yum install -y php-pear  
